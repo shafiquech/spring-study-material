@@ -16,6 +16,7 @@ spring:
       hibernate.generate_statistics: true
 hibernate:
   dialect: org.hibernate.dialect.MySQLDialect
-server:
+  query:
+    in_clause_parameter_padding: true
   port: 8082
 
